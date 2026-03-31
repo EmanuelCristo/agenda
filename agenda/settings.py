@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 ]
 
+INSTALLED_APPS += ['django_bootstrap5', 'django_seed']
+
 INSTALLED_APPS += ['home', 'fornecedores',]
 
 MIDDLEWARE = [
